@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "Empty",
+    name: "Hello",
     products: [
         .library(
-            name: "Empty",
-            targets: ["Empty"]),
+            name: "Hello",
+            targets: ["Hello"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Empty"),
+            name: "Hello"),
         .testTarget(
-            name: "EmptyTests",
-            dependencies: ["Empty"]
+            name: "HelloTests",
+            dependencies: ["Hello"]
         ),
     ]
 )
