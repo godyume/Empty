@@ -1,4 +1,4 @@
 
-public func empty() {
+public func Hello() {
     print(#function)
 }
